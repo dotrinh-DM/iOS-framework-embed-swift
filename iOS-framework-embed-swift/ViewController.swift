@@ -7,13 +7,24 @@
 
 import UIKit
 
+import Calculator_framework
+
 class ViewController: UIViewController {
 
+    var calculator: Calculator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        calculator = Calculator()
+        
+        let valueX = 2
+        let valueY = 3
+
+        let result = calculator?.multitply(valueX, with: valueY) ?? 0
+
+        print("multi: " + String(result))
+        
     }
 
 
 }
-

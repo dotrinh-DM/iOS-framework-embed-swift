@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D38B5E72B2C79BC00EAB611 /* Calculator_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D38B5E62B2C79BC00EAB611 /* Calculator_framework.framework */; };
+		5D38B5E82B2C79BC00EAB611 /* Calculator_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D38B5E62B2C79BC00EAB611 /* Calculator_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D78E3C92B2C502900933708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78E3C82B2C502900933708 /* AppDelegate.swift */; };
 		5D78E3CB2B2C502900933708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78E3CA2B2C502900933708 /* SceneDelegate.swift */; };
 		5D78E3CD2B2C502900933708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78E3CC2B2C502900933708 /* ViewController.swift */; };
@@ -16,12 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5D78E3E02B2C505400933708 /* Embed Frameworks */ = {
+		5D38B5E92B2C79BC00EAB611 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5D38B5E82B2C79BC00EAB611 /* Calculator_framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D38B5E62B2C79BC00EAB611 /* Calculator_framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Calculator_framework.framework; sourceTree = "<group>"; };
 		5D78E3C52B2C502900933708 /* iOS-framework-embed-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-framework-embed-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D78E3C82B2C502900933708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D78E3CA2B2C502900933708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D38B5E72B2C79BC00EAB611 /* Calculator_framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,7 @@
 		5D78E3DC2B2C505300933708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D38B5E62B2C79BC00EAB611 /* Calculator_framework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,7 +104,7 @@
 				5D78E3C12B2C502900933708 /* Sources */,
 				5D78E3C22B2C502900933708 /* Frameworks */,
 				5D78E3C32B2C502900933708 /* Resources */,
-				5D78E3E02B2C505400933708 /* Embed Frameworks */,
+				5D38B5E92B2C79BC00EAB611 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
